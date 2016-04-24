@@ -2,9 +2,12 @@
     <string name="app_name">ToDo Tracker</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_new_note">NewNoteActivity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings added by Alida -->
     <string name="edit_note_title">Title</string>
     <string name="edit_note_content">Note</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="add_location">Add Location</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -18,4 +21,5 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_location">Map</string>
 </resources>
