@@ -36,5 +36,17 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:hint="@string/edit_note_content"/>/>
+        android:hint="@string/edit_note_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_location"
+        android:id="@+id/addLocationButton"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/editNoteContent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="openLocationActivity"/>
+
 </RelativeLayout>
